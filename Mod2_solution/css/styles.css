@@ -1,0 +1,146 @@
+
+* 	{
+  	box-sizing: border-box;
+  	font-family: helvetica;
+  	font-size: 100%;
+  	text-align: left;
+	}
+
+h1 {
+  	margin-top: 20px;
+  	margin-bottom: 30px;
+  	text-align: center;
+  	font-size: 1.75em;
+	}
+
+
+.inner {
+	border: 1px solid black;
+  	padding: 50px;
+  	padding-left: 10px;
+  	padding-right: 10px;
+  	padding-bottom: 10px;
+  	margin-right: auto;
+  	float: left;
+  	background-color: gray;
+  	position: relative; 
+}
+  	
+
+
+.region1 {
+	width: 120px;
+	height: 40px;
+	padding-top: 10px;
+	text-align: center;
+	border: 1px solid black;
+  	background-color: #ffe6e6;
+  	position: absolute;
+  	right:0;
+  	top:0;
+  	margin:0;
+  	font-size: 1.25em;
+  	font-weight: bold;
+
+}
+.region2 {
+	width: 120px;
+	height: 40px;
+	padding-top: 10px;
+	text-align: center;
+	border: 1px solid black;
+  	background-color: #A52A2A;
+  	position: absolute;
+  	right:0;
+  	top:0;
+  	margin:0;
+  	font-size: 1.25em;
+  	color: white;
+  	font-weight: bold;
+
+
+}
+.region3 {
+	width: 120px;
+	height: 40px;
+	padding-top: 10px;
+	text-align: center;
+	border: 1px solid black;
+  	background-color: #ffffe6;
+  	position: absolute;
+  	right:0;
+  	top:0;
+  	margin:0;
+  	font-size: 1.25em;
+  	font-weight: bold;
+
+}
+
+
+p 	{
+	margin: 0;
+/*	border: 2px solid black;
+	background-color: gray; */ 	
+  	padding-right: : 10px;
+/*  	padding-bottom: 10px;
+  	margin-right: auto;*/
+
+ 	}
+
+/*.row {
+  margin-bottom: 150px;
+  background-color: gray;
+}*/
+
+
+/********** Desktop view **********/
+@media (min-width: 992px) 
+{
+  .outer	{
+    width: 33%;
+    padding: 10px;
+	margin-right: auto;
+  	margin-bottom: auto;
+  	float: left;
+  	top: 20px;
+  		}
+  
+}
+
+/********** Tablet view **********/
+@media (min-width: 768px) and (max-width: 991px) 
+{
+  .outer 	{
+    width: 50%;
+    padding: 10px;
+	margin-right: auto;
+  	margin-bottom: auto;
+  	float: left;
+  	top: 20px;
+  		}
+
+   .outer100	{
+    width: 100%;
+    padding: 10px;
+	margin-right: auto;
+  	margin-bottom: auto;
+  	float: left;
+  	top: 20px;
+  		} 		
+
+
+}
+
+/********** Mobile view **********/
+@media (max-width: 767px) 
+{
+  .outer 	{
+    width: 100%;
+    padding: 10px;
+	margin-right: auto;
+  	margin-bottom: auto;
+  	top: 20px;
+    clear: left;
+     	}
+
+}
